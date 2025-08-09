@@ -26,6 +26,8 @@
 }
 
 
+
+
 /* header */
 
 .header{
@@ -73,6 +75,9 @@ nav li a{
 }
 
 
+
+
+
 /* action styles */
 
 .action{
@@ -80,6 +85,11 @@ nav li a{
     align-items: center;
     justify-content: space-between;
     margin: 116px 150px;
+    
+}
+
+.action-content{
+    padding: 62px 220px 62px 0;
 }
 
 .action-title{
@@ -95,4 +105,109 @@ nav li a{
     border-radius: 48px;
     width: 403px;
     height: 328px;
+}
+
+
+
+/* productive user styles */
+.productive-user-title{
+    font-weight: bold;
+    font-size: 38px;
+    color: #252432;
+    text-align: center;
+}
+.productive-user-bg-color{
+    background-color: #4E47FF;
+    margin: 0 auto;
+}
+.productive-user{
+    border-radius: 24px;
+    margin: 116px 124px 137px 141px;
+    padding: 50px 80px;
+}
+
+.productive-user-items{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.productive-user-item-title{
+    font-weight: bold;
+    font-size: 80px;
+}
+.productive-user-item-subtitle{
+    font-weight: 400px;
+    font-size: 20px;
+}
+
+/* get-in-touch styles */
+
+.get-in-touch{
+    margin: 92px 150px 14px 150px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1140px;
+    
+}
+.get-in-touch-left{
+    font-size: 57px;
+    font-weight: bold;
+    
+}
+.get-in-touch-right input[type="email"],
+.get-in-touch-right input[type="text"],
+.get-in-touch-right textarea {
+    height: 70px;
+    border-radius: 10px;
+    background-color: #fff;
+    display: block;
+    width: 497px;
+    padding: 20px 32px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-bottom: 19px;
+    
+}
+
+/* footer styles */
+
+.footer {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    height: 100vh; 
+}
+
+.footer-description{
+    width: 531px;
+    height: 48px;
+    font-weight: 400px;
+    font-size: 16px;
+    color: #8987A1;
+}
+
+.footer-title{
+    font-weight: 800px;
+    font-size: 100px;
+    color: rgba(78, 71, 255, 1);
+}
+
+
+footer ul li{
+    list-style-type: none;
+}
+
+footer li a{
+    text-decoration: none;
+}
+ .footer-links ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 48px;
 }
